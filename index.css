@@ -1,0 +1,33 @@
+body{
+    word-wrap: normal;
+}
+#text{
+    color: rgb(123, 121, 121);
+}
+#text:hover{
+    color: red;
+}
+#card{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#footer{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+@media (max-width: 1000px){
+    #img-header{
+        width: 100rem;
+    }
+    #sub-card{
+        margin-top: 2rem;
+    }
+    #footer{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#f-card{
+    margin: auto;
+    margin-top: 2rem;
+}
+}
